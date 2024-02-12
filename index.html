@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Message For You</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Leap.</strong>
+                        <p>
+                            Happy Valentine's Day, Mon Chéri. Here's a peom i wrote for you.
+<br>
+                            <br> even if we’re surrounded by all the stars, i would still choose to look into your eyes because they are the prettiest stars i’ve ever laid my eyes upon. 
+<br>
+<br> your eyes are the only shining stars that are worth being blinded by and i am willingly choose to forever live seeing only darkness just to, once, stare deeply into your beautiful eyes, to see the window to your soul, to truly understand, to fully cherish, to gracefully remember them for eternity, and finally, to simply love you, the owner of those set eyes. 
+
+ ⁃ P
+                             
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
